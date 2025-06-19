@@ -25,8 +25,8 @@
       <a href="index.html" class="nav-text">All</a><br>
       <a href="graphic.html" class="nav-text-active">Graphic</a><br>
       <a href="art.html" class="nav-text">Art</a><br>
-      <a href="animation.html" class="nav-text">Animation</a><br>
-      <a href="narrative.html" class="nav-text">Narrative</a>
+      <a href="narrative.html" class="nav-text">Narrative</a><br>
+      <a href="editorial.html" class="nav-text">Editorial Illustration</a>
     </div>
   </nav>
   <button class="back-button" onclick="history.back()"><img id="logo" src="media/images/left.png" width="40x" height="40px"></button>
@@ -35,59 +35,97 @@
 
     <!-- Gallery
  -->
-  <div class="container">
+
+
+ <div class="project">
+  <h2 id="genart">Workshop Posters</h2><br>
    <div class="gallery">
     <div class="column">
-      <div class="photo">
-        <a href="sumo.html" class="image">
-          <img src="media/images/sumo/1.jpg"alt="">         
-        </a>
-      </div><figcaption>Tokyo Art Guide Magazine Spread<br><small>Graphic</small></figcaption>
-  
-      <div class="photo">
-      <a href="genart.html" class="image">
-        <img src="media/thumbs/genart.jpg" alt="">
-      </a>
-    </div><figcaption>Workshop Posters<br><small>Graphic</small></figcaption>
+      <div class="photo1">
+        <img src="media/images/genart/1.jpg" onclick="toggleFullscreen(this)" alt="">
+      </div>
+      <div class="photo1">
+        <img src="media/images/genart/4.jpg" onclick="toggleFullscreen(this)" alt="">
+      </div>
 
+       </div>
+
+            <div class="column">
+              <div class="photo1">
+                  <img src="media/images/genart/2.jpg" onclick="toggleFullscreen(this)" alt="">         
+              </div>
+              <div class="photo1">
+                <img src="media/images/genart/3.jpg" onclick="toggleFullscreen(this)" alt="">         
+              </div>
+            </div>
     </div>
-
-    <div class="column">    
-      <div class="photo">
-        <a href="hot-sauce.html" class="image">
-          <img src="media/images/hot-sauce/1.jpg"  alt="">         
-        </a>
-      </div><figcaption>Hot Sauce Label<br><small>Graphic</small></figcaption>
-
-       <!-- <div class="photo">
-        <a href="sphinx.html" class="image">
-          <img src="media/thumbs/sphinx.jpg"  alt="">         
-        </a>
-      </div><figcaption>Promotional Design<br><small>Graphic</small></figcaption> -->
-      <div class="photo">
-        <a href="botanical.html" class="image">
-          <img src="media/thumbs/botanical.jpg"  alt="">         
-        </a>
-      </div><figcaption>Botanical<br><small>Graphic</small></figcaption>
-      
-    </div>    
-    
-    <div class="column">    
-      <div class="photo">
-        <a href="vn-grils-card.html" class="image">
-          <img src="media/images/vn-girls-card/1.jpg"  alt="">         
-        </a>
-      </div><figcaption>Vietnamese Elegance Playing Card<br><small>Graphic</small></figcaption>
-      <div class="photo">
-        <a href="printing.html" class="image">
-          <img src="media/images/printing/snake - mockup.jpg"  alt="">         
-        </a>
-      </div><figcaption>2025 Snake<br><small>Graphic</small></figcaption>
-    </div>  
-     
-            
    </div>
-  </div>
+
+    <!-- <div class="project">
+  <h2 id="genart">Promotional</h2><br>
+   <div class="gallery">
+    <div class="column">
+            <div class="photo1">
+        <img src="media/images/sphinx/9.jpg" onclick="toggleFullscreen(this)" alt="">
+      </div>
+      <div class="photo1">
+        <img src="media/images/sphinx/8.jpg" onclick="toggleFullscreen(this)" alt="">
+      </div>
+              <div class="photo1">
+                <img src="media/images/sphinx/7.jpg" onclick="toggleFullscreen(this)" alt="">         
+              </div>
+       </div>
+
+            <div class="column">
+              <div class="photo1">
+                  <img src="media/images/sphinx/6.jpg" onclick="toggleFullscreen(this)" alt="">         
+              </div>
+              <div class="photo1">
+                <img src="media/images/sphinx/4.jpg" onclick="toggleFullscreen(this)" alt="">         
+              </div>
+            </div>
+    </div>
+   </div> -->
+
+   <div class="project">
+  <h2 id="vn-grils-card">Vietnamese Elegance Playing Card</h2><br>
+<img class="project-image" src="media/images/vn-girls-card/1.jpg" alt="">
+<img class="project-image" src="media/images/vn-girls-card/2.jpg" alt="">
+<img class="project-image" src="media/images/vn-girls-card/2a.jpg" alt="">
+<img class="project-image" src="media/images/vn-girls-card/3.jpg" alt="">
+<img class="project-image" src="media/images/vn-girls-card/4.jpg" alt="">
+<img class="project-image" src="media/images/vn-girls-card/5.gif" alt="">
+<img class="project-image" src="media/images/vn-girls-card/6.gif" alt="">
+</div>
+
+   <div class="project">
+  <h2 id="hot-sauce">Hot Sauce Label</h2><br>
+<img class="project-image" src="media/images/hot-sauce/1.jpg"  alt="">
+<img class="project-image" src="media/images/hot-sauce/2.jpg"  alt="">         
+<img class="project-image" src="media/images/hot-sauce/3.jpg"  alt="">         
+<img class="project-image" src="media/images/hot-sauce/4.jpg"  alt="">         
+<img class="project-image" src="media/images/hot-sauce/5.jpg"  alt="">         
+<img class="project-image" src="media/images/hot-sauce/6.jpg"  alt="">
+<img class="project-image" src="media/images/hot-sauce/7.jpg"  alt="">         
+<img class="project-image" src="media/images/hot-sauce/8.jpg"  alt="">
+<!-- <img class="project-image" src="media/images/hot-sauce/9.jpg"  alt="">          -->
+</div>
+
+<div class="project">
+  <h2 id="snake">2025 Snake</h2><br>
+  <div class="gallery">
+    <div class="column">
+      <div class="photo1">
+          <img src="media/images/printing/snake - mockup.jpg" onclick="toggleFullscreen(this)" alt="">         
+      </div>
+    </div>
+           <div class="column">
+      <div class="photo1">
+        <img src="media/images/printing/snake2.jpg" onclick="toggleFullscreen(this)" alt="">
+      </div>
+    </div>
+  </div>   
+</div>
 
 
   <footer>
